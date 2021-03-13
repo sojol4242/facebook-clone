@@ -45,7 +45,7 @@ const Header = () => {
                 <div className="header-info">
                     
                        <IconButton>
-                   <Avatar/> 
+                   <Avatar src="https://files.fm/thumb_show.php?i=qmzp7nszu"/> 
               </IconButton>
                     <h4>Md Moniruzzzaman Sojol</h4>
                 </div>

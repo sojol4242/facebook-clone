@@ -6,7 +6,7 @@
 }
 .siderbar-row:hover{
     background-color: lightgray;
-    border-radius: 10pxs;
+    border-radius: 10px;
 }
 .siderbar-row>h4{
     margin-left: 20px;

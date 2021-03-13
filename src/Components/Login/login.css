@@ -1,0 +1,23 @@
+.login{
+    background-color: #fff;
+     display: grid;
+     place-items: center;
+     height: 100vh;
+}
+.login-logo{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.login>div>img{
+    object-fit: contain;
+    height: 100px;
+}
+.login>button{
+    width: 300px;
+    color: #eff2f5;
+    background-color: #2e81f4;
+}

@@ -2,7 +2,7 @@
  display: flex;
  padding: 15px 20px;
  justify-content: space-between;
- position:sticky;
+ position: relative;
  background-color: color;
  z-index: 100;
  top: 0;
@@ -79,6 +79,7 @@
 }
 .header-info>h4{ 
     margin-left: 10px;
+    cursor:pointer;
  }
 
  .right_header{

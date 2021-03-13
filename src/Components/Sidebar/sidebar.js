@@ -7,7 +7,7 @@ const sidebar = () => {
 
 
     return (
-        <div className="siderbar">
+        <div className="sidebar">
             <SideBarRow src="https://files.fm/thumb_show.php?i=qmzp7nszu" title="Md Moniruzzaman Sojol"/>
             <SideBarRow src="" Icon={LocalHospital} title="COVID-19 Information Center"/>
             <SideBarRow src="" Icon={EmojiFlags} title="Pages"/>

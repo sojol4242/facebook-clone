@@ -1,0 +1,9 @@
+.feeds{
+    grid-column: 5/10;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid rgba(94, 94, 94, 0.048);
+    padding: 25px 5px;     
+}
