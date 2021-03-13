@@ -1,5 +1,12 @@
-.sidebar{
+ .sidebar{
     padding: 25px 5px;    
     border-right: 2px solid rgba(94, 94, 94, 0.048); 
     grid-column: 1/2;
+}
+
+/*  */
+@media(max-width:550px){
+     .sidebar{
+       display: none;    
+}
 }

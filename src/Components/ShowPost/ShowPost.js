@@ -13,12 +13,12 @@ const ShowPost = ({profilePic,image,userName,timestamp,message}) => {
                 <Avatar src={profilePic} className="post_avatar" />
                 <div className="post_top_info">
                     <h3>{userName}</h3>
-                    <p>{timestamp}</p>
+                    <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
 
                 </div>
                 </div>
                   <div className="post_bottom">
-                    <p>This is first post <br/>
+                    <p> 
                         {message} </p>
                 </div>
                 <div className="post_image">

@@ -2,3 +2,8 @@
    padding: 25px 5px;
    grid-column: 10/12;    
 }
+@media(max-width:990px){
+    .widgets{
+    display: none;
+    }
+}

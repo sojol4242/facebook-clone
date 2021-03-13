@@ -2,26 +2,29 @@
 import './App.css';
 import Feeds from './Components/Feeds/Feeds';
 import Header from './Components/header/Header';
-import Login from './Components/Login/Login';
-import Sidebar from './Components/Sidebar/sidebar';
+import LogIn from './Components/LogIn/LogIn';
+import Sidebar from './Components/sidebar/Sidebar';
+import { useStateValue } from './Components/StateProvider';
 import Widgets from './Components/Widgets/Widgets';
 function App() {
 
-  const user =null;
+  // const user = null;
+  
+  const[{ user }, dispatch] = useStateValue();
   
   return (
      
     
         <div className="app"> 
       {
-        ! user ? (<Login/>) :
+        !user?(<LogIn/>):
           (<>
            {/* Header component */}
             <Header />
 
             <div className="app_body">
               {/*  sidebar */}
-              <Sidebar />
+              <Sidebar/>
               {/* feed */}
               <Feeds />
           
@@ -30,7 +33,8 @@ function App() {
               <Widgets />
             </div>
    
-          </>)}
+          </>)
+      }
        </div>  
           
  

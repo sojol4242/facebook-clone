@@ -89,3 +89,8 @@
     margin-left:10px;
     
 }
+@media(max-width:990px){
+ .right_header{
+     display: none;
+ }
+}

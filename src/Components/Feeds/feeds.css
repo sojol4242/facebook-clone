@@ -1,9 +1,23 @@
 .feeds{
-    grid-column: 5/10;   
+    grid-column: 2/10;   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-right: 2px solid rgba(94, 94, 94, 0.048);
     padding: 25px 5px;     
+}
+@media(max-width:990px){
+     .feeds{
+     width: 100%; 
+     padding:10px 0;  
+     grid-column: 3/12;   
+}
+}
+@media(max-width:550px){
+     .feeds{
+     grid-column: 1/12; 
+     align-self: center;
+     
+}
 }

@@ -11,8 +11,11 @@ import { Avatar,IconButton } from '@material-ui/core';
 import ExpandMoreSharpIcon from '@material-ui/icons/ExpandMoreSharp';
 import NotificationsNoneSharpIcon from '@material-ui/icons/NotificationsNoneSharp';
 import AddSharpIcon from '@material-ui/icons/AddSharp';
+import { useStateValue } from '../StateProvider';
 
 const Header = () => {
+
+     const[{ user }, dispatch] = useStateValue();
     return (
         <div className="header">
             <div className="left_header">
@@ -26,7 +29,7 @@ const Header = () => {
                 <div className="header_icons header_icon_active">
                     <HomeIcon/>
                 </div>
-                <div className="header_icons header_icon_active">
+                <div className="header_icons">
                     <FlagIcon/>
                 </div>
                 <div className="header_icons">
@@ -45,9 +48,9 @@ const Header = () => {
                 <div className="header-info">
                     
                        <IconButton>
-                   <Avatar src="https://files.fm/thumb_show.php?i=qmzp7nszu"/> 
+                   <Avatar src={user.photoURL}/> 
               </IconButton>
-                    <h4>Md Moniruzzzaman Sojol</h4>
+                    <h4>{ user.displayName}</h4>
                 </div>
                 <IconButton>
                     < AddSharpIcon/>
