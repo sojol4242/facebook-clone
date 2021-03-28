@@ -14,10 +14,4 @@
      grid-column: 3/12;   
 }
 }
-@media(max-width:550px){
-     .feeds{
-     grid-column: 1/12; 
-     align-self: center;
-     
-}
-}
+ 

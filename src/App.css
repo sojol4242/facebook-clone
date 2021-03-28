@@ -1,3 +1,6 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .app{
   background-color: #f1f2f5;
   min-width:none; 
@@ -26,10 +29,11 @@
 @media(max-width:550px){
   .app{
   background-color: #fff;
-  width: 100%; 
+ 
 }
   .app_body{
-       grid-template-columns:1fr;
-       
+        display: grid;
+         grid-template-columns: 1fr;
+         place-items: center;
 }
 }

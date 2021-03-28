@@ -21,25 +21,25 @@ const Header = () => {
             <div className="left_header">
                <img src="https://img.icons8.com/cute-clipart/50/000000/facebook-new.png" alt=""/>
                 <div className="header_input">
-                    <SearchIcon/>
+                    <SearchIcon className="header_icon"/>
                     <input type="text" placeholder="Search on Facebook"/>
                </div>
             </div>
             <div className="center_header">
                 <div className="header_icons header_icon_active">
-                    <HomeIcon/>
+                    <HomeIcon className="header_icon"/>
                 </div>
                 <div className="header_icons">
-                    <FlagIcon/>
+                    <FlagIcon className="header_icon"/>
                 </div>
                 <div className="header_icons">
-                    <SubscriptionsIcon/>
+                    <SubscriptionsIcon className="header_icon"/>
                 </div>
                 <div className="header_icons">
-                    <StorefrontIcon/>
+                    <StorefrontIcon className="header_icon"/>
                 </div>
                 <div className="header_icons">
-                    <SupervisedUserCircleIcon/>
+                    <SupervisedUserCircleIcon className="header_icon"/>
                 </div>
                 
 

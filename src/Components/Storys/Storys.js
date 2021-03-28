@@ -7,10 +7,11 @@ const Storys = () => {
     return (
         <div className="storys">
             {/* Single story component */}
-            <Story image="https://files.fm/thumb_show.php?i=fanhsbz8k" profileSrc={user.photoURL} title={user.displayName}  className="story"/>
-            <Story image="https://files.fm/thumb_show.php?i=fanhsbz8k" profileSrc={user.photoURL} title={user.displayName}  className="story"/>
-            <Story image="https://files.fm/thumb_show.php?i=fanhsbz8k" profileSrc={user.photoURL} title={user.displayName}  className="story"/>
-            <Story image="https://files.fm/thumb_show.php?i=fanhsbz8k" profileSrc={user.photoURL} title={user.displayName}  className="story"/>
+            {/* src="https://source.unsplash.com/user/erondu/1600x900" */}
+            <Story image="https://source.unsplash.com/weekly?water" profileSrc={user.photoURL} title={user.displayName}  className="story"/>
+            <Story image="https://source.unsplash.com/weekly?pain" profileSrc={user.photoURL} title={user.displayName}  className="story"/>
+            <Story image="https://source.unsplash.com/weekly?books" profileSrc={user.photoURL} title={user.displayName}  className="story"/>
+            <Story image="https://source.unsplash.com/weekly?code" profileSrc={user.photoURL} title={user.displayName}  className="story"/>
            
                     
             {/* this is story Components */}

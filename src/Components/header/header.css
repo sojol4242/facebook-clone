@@ -40,8 +40,7 @@
 }
 
 .header_icons>.MuiSvgIcon-root{
-    color:gray;
-    
+    color:gray;  
     font-size:30px;
     transition:color .3s linear;
 }
@@ -93,4 +92,19 @@
  .right_header{
      display: none;
  }
+}
+@media(max-width:550px){
+ .header_input{
+  display:none;
+}
+.header_icons>.MuiSvgIcon-root{
+   
+    font-size:20px;
+     
+}
+.left_header>img{
+    height:30px;
+    margin-right:20px;
+}
+
 }
